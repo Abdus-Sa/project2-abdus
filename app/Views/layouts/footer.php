@@ -1,31 +1,41 @@
-    <footer>
-        <div class="environment">
-            <p>Page rendered in {elapsed_time} seconds using {memory_usage}
-                MB of memory.</p>
-            <p>Environment: <?= ENVIRONMENT ?></p>
+<footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+        <div class="copyright text-center ">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Portfolio</strong> <span>All Rights Reserved</span></p>
         </div>
-        <div class="copyrights">
-            <p>&copy; <?= date('Y') ?> CodeIgniter Foundation. CodeIgniter
-                is open source project released under the MIT
-                open source licence.</p>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you've purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+            Designed by Abdus Salam <!-- <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
         </div>
-    </footer>
-    <!-- SCRIPTS -->
+    </div>
 
-    <script {csp-script-nonce}>
-        document.getElementById("menuToggle").addEventListener('click', toggleMenu);
+</footer>
 
-        function toggleMenu() {
-            var menuItems = document.getElementsByClassName('menu-item');
-            for (var i = 0; i < menuItems.length; i++) {
-                var menuItem = menuItems[i];
-                menuItem.classList.toggle("hidden");
-            }
-        }
-    </script>
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <!-- -->
+<!-- Preloader -->
+<div id="preloader"></div>
 
-    </body>
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/typed.js/typed.umd.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    </html>
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
